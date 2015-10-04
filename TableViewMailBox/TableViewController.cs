@@ -54,5 +54,12 @@ namespace TableViewMailBox
             detailViewController.Item = emailItem;
             PresentViewController(detailViewController, true, null);
         }
+
+        //Go Back button using the storyboard
+        [Action("UnwindToTableViewController:")]
+        public void UnwindToTableViewController(UIStoryboardSegue segue)
+        {
+            
+        }
     }
 }

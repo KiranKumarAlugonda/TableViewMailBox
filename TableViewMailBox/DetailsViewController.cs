@@ -34,10 +34,12 @@ namespace TableViewMailBox
         {
             UpdateItem();
         }
-        //Back Button
-        partial void OnDismiss(UIButton sender)
-        {
-            this.DismissViewController (true, null);
-        }
+        //Back Button dismiss the screen through code.
+//        partial void OnDismiss(UIButton sender)
+//        {
+//            this.DismissViewController (true, null);
+//        }
+
+
 	}
 }
