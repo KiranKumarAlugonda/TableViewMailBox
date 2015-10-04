@@ -13,6 +13,12 @@ namespace TableViewMailBox
         public TableViewController (IntPtr handle) : base (handle)
         {
         }
+
+        //Addding space on the top
+        public override void ViewDidLoad()
+        {
+            this.TableView.ContentInset = new UIEdgeInsets(30, 0, 0, 0);
+        }
         //Getting the number of rows
         public override nint RowsInSection(UITableView tableview, nint section)
         {
