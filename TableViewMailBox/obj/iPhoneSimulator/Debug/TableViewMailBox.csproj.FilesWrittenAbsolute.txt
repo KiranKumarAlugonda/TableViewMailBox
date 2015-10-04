@@ -1,0 +1,15 @@
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/optimized/
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/bin/iPhoneSimulator/Debug/TableViewMailBox.exe.mdb
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/bin/iPhoneSimulator/Debug/TableViewMailBox.exe
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/TableViewMailBox.exe
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/TableViewMailBox.exe.mdb
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/bin/iPhoneSimulator/Debug/Calabash.dll
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/6-view-7.nib
+/Users/cp58178/Projects/TableViewMailBox/TableViewMailBox/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-6.nib
