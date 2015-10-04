@@ -34,6 +34,7 @@ namespace TableViewMailBox
                    cell.ImageView.Image = item.GetImage();
                 cell.TextLabel.TextColor = UIColor.Blue;
                 cell.DetailTextLabel.TextColor = UIColor.Gray;
+                //Adding accessory
                 cell.Accessory = UITableViewCellAccessory.Checkmark;
                 return cell;
             }

@@ -47,7 +47,89 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="495" y="17"/>
+            <point key="canvasLocation" x="447" y="45"/>
+        </scene>
+        <scene sceneID="34">
+            <objects>
+                <viewController id="35" sceneMemberID="viewController" customClass="DetailsViewController" storyboardIdentifier="DetailsViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="32"/>
+                        <viewControllerLayoutGuide type="bottom" id="33"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="36">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="39" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="8">
+                                <rect key="frame" x="126" y="69" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="33" y="116" width="238" height="238"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="40" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="137" y="408" width="46" height="30"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="64" y="408" width="166" height="30"/>
+                                    <mask key="constraints">
+                                        <include reference="41"/>
+                                        <include reference="42"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="41" firstItem="40" firstAttribute="width" constant="166"/>
+                                    <constraint id="42" firstItem="40" firstAttribute="width" constant="166"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="41"/>
+                                        <exclude reference="42"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnDismiss:" destination="35" id="45" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="39"/>
+                                <exclude reference="40"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="64"/>
+                                <exclude reference="67"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="39"/>
+                                <include reference="40"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="64"/>
+                                <include reference="67"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint firstItem="40" firstAttribute="top" secondItem="39" secondAttribute="bottom" constant="132" id="64"/>
+                            <constraint firstItem="39" firstAttribute="top" secondItem="32" secondAttribute="bottom" constant="91" id="67"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="EmailText" destination="39" id="name-outlet-39"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="59"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
